@@ -1028,3 +1028,4 @@ export * from "../types/stagehandApiErrors";
 export * from "../types/stagehandErrors";
 export * from "./llm/LLMClient";
 export { connectToMCPServer };
+export * from "././StagehandContext";
