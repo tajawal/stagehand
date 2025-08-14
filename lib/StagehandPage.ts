@@ -418,7 +418,7 @@ ${scriptContent} \
       if (err instanceof StagehandError || err instanceof StagehandAPIError) {
         throw err;
       }
-      throw new StagehandDefaultError(err);
+      // throw new StagehandDefaultError(err);
     }
   }
 
