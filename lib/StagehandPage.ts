@@ -510,7 +510,9 @@ ${scriptContent} \
                 });
               }
               this.intContext.setActivePage(this);
-              return target.on(event, listener);
+              if (target && !target.isClosed()) { 
+                return target.on(event, listener);
+              }
             };
           }
 
